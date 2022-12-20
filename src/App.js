@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import data from "./data.json"
+import Table from './table';
 
-function App() {
+function App(){
+  const getHeadings = () =>{
+    return Object.keys(data[0])
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Users Details</h1>
+      <Table theadData={getHeadings()} tbodyData={data}/>
     </div>
-  );
+  )
 }
-
-export default App;
+export default App

@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color:palevioletred ;
+  font: 4rem "Rubik Moonrocks", cursive;
+  font-size: larger;
+  font-weight: bold;
+}
+
+h1{
+  color: lightgoldenrodyellow;
+}
+
+th{
+  color: crimson;
+  font-weight: bold;
+  align-items:flex-start;
+}
+
