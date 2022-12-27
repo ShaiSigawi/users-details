@@ -48,9 +48,36 @@ h1{
   color: lightgoldenrodyellow;
 }
 
+/*
+h3{
+  text-align: left;
+}*/
+
 th{
-  color: crimson;
+  color: #C71585;
   font-weight: bold;
   align-items:flex-start;
+  text-align: center;
+  background-color:#DCDCDC;
+  
+}
+
+table, th, td {
+  border: 1px solid rgb(239, 159, 203);
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td {
+  text-align: left;
+  padding-left: 15px;
+  font-weight:lighter;
+}
+
+tr:hover {
+  background-color:rgba(245, 225, 178, 0.579);
 }
 

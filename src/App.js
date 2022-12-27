@@ -11,6 +11,11 @@ function App(){
     <div className="App">
       <h1>Users Details</h1>
       <Table theadData={getHeadings()} tbodyData={data}/>
+      <h3>Add name users</h3>
+      <input type/>
+      <h3>Add Email users</h3>
+      <input type/>
+
     </div>
   )
 }
