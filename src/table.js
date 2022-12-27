@@ -1,7 +1,7 @@
-import data from "./data.json"
 import './App.css';
 
-export default function Table({tbodyData}) {
+function Table({tbodyData}) {
+
     return(
         <table>
             <thead>
@@ -22,5 +22,7 @@ export default function Table({tbodyData}) {
                 })}
             </tbody>
         </table>
+        
 )
 }
+export default Table;
